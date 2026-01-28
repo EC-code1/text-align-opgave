@@ -36,7 +36,9 @@ section#text-align {
     display: inline-block;
 }
 
-/* FLOAT-OPGAVE */
+
+
+/* Float opgave */
 section#float-tekst {
     margin-top: 40px;
 }
@@ -53,11 +55,6 @@ section#float-tekst {
     overflow: auto; /* rydder float */
 }
 
-.float-caption {
-    font-size: 0.9rem;
-    margin-top: 8px;
-}
-
 .float-left {
     float: left;
     margin-right: 15px;
@@ -68,6 +65,10 @@ section#float-tekst {
     float: right;
     margin-left: 15px;
     margin-bottom: 10px;
+}
+
+.bottom-img {
+    margin-top: 40px; 
 }
 
 .float-text {

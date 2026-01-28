@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+}
+
+main#opgave {
+    max-width: 500px;
+    margin: 20px auto 40px;
+}
+
+section#text-align {
+    padding: 30px 40px;
+    background: #f4b165;
+}
+
+.box {
+    margin: 30px 0;
+}
+
+.box-center {
+    text-align: center;
+}
+
+.box-left {
+    text-align: left;
+}
+
+.box-right {
+    text-align: right;
+}
+
+.box img {
+    margin: 20px 0 15px;
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+/* FLOAT-OPGAVE */
+section#float-tekst {
+    margin-top: 40px;
+}
+
+.float-box {
+    margin-top: 10px;
+    padding: 20px;
+    border: 2px dashed #00a0d2;
+    background: #f4b165;
+}
+
+.float-box p {
+    text-align: justify;
+    overflow: auto; /* rydder float */
+}
+
+.float-caption {
+    font-size: 0.9rem;
+    margin-top: 8px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.float-text {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.float-text img {
+    max-width: 200px;
+    height: auto;
+}

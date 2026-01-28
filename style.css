@@ -34,6 +34,8 @@ section#text-align {
     max-width: 100%;
     height: auto;
     display: inline-block;
+    padding: 10px;              
+    background: #b03a3a;
 }
 
 
@@ -48,6 +50,11 @@ section#float-tekst {
     padding: 20px;
     border: 2px dashed #00a0d2;
     background: #f4b165;
+}
+
+.float-box img {
+    padding: 10px;
+    background: #b03a3a;
 }
 
 .float-box p {
